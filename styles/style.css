@@ -202,3 +202,43 @@ footer {
   padding: 2rem 8rem;
 }
 /* end of footer styles */
+
+@media (max-width: 375px) {
+  /* start of nav styles */
+  nav {
+    padding: 1rem 2rem;
+  }
+
+  .nav-link, .nav-button {
+    display: none;
+  }
+
+  .nav-menu {
+    display: block;
+  }
+
+  .nav-menu img[alt='Icon Close'] {
+    display: none;
+  }
+  /* end of nav styles */
+
+  /* start of header styles */
+  header {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 2rem;
+  }
+  /* end of header styles */
+
+  /* start of main styles */
+  main section {
+    padding: 4rem 2rem;
+  }
+  /* end of main styles */
+
+  /* start of footer styles */
+  footer {
+    padding: 2rem;
+  }
+  /* end of footer styles */
+}
